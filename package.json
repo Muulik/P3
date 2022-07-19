@@ -1,0 +1,19 @@
+{
+  "name": "p3_riche_malik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muulik/P3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muulik/P3/issues"
+  },
+  "homepage": "https://github.com/Muulik/P3#readme"
+}

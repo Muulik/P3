@@ -3,7 +3,12 @@
 
 <head>
    <title>ohmyfood - Accueil</title>
-   <link rel="stylesheet" type="text/css" href="">
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css\style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
    <script src="https://kit.fontawesome.com/4fc2a1135c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -12,15 +17,19 @@
       <img src="maquette_ohmyfood/images/logo/ohmyfood.png" alt="Logo ohmyfood">
    </header>
 
-   <form method="post" action="#">
-      <div>
-         <i class="fa-solid fa-location-dot"></i>
-         <label for="lieu"></label>
-         <input type="text" name="lieu" id="lieu" value="Paris, Belleville"/>
+   <form method="post" action="#" class="form">
+      <div class="form__recherche">
+         <div class="form__recherche__bloc">
+            <i class="fa-solid fa-location-dot"></i>
+            <label for="lieu"></label>
+            <input type="text" name="lieu" id="lieu" value="Paris, Belleville"/>
+         </div>
       </div>
-      <h1>Réservez le menu qui vous convient</h1>
-      <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
-      <input type="submit" value="Explorer nos restaurants" class="submit"/>
+      <div class="form__bloc">
+         <h1>Réservez le menu qui vous convient</h1>
+         <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
+         <input type="submit" value="Explorer nos restaurants" class="form__bloc__submit"/>
+      </div>
    </form>
 
    <section>
