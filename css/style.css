@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -24,7 +31,7 @@ header img {
   align-items: center;
   height: 50px;
   background-color: #eaeaea;
-  box-shadow: inset 0 1px 1px gray;
+  box-shadow: inset 0 2px 2px #d1d1d1;
 }
 .form__recherche__bloc {
   display: flex;
@@ -72,7 +79,7 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0 25px;
+  margin: 20px 25px;
 }
 .fonctionnement__bouton {
   display: flex;
@@ -83,15 +90,6 @@ header img {
   margin: 10px 0;
   height: 65px;
   box-shadow: 5px 5px 8px #e6e6e6;
-}
-.fonctionnement__bouton a {
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-  text-decoration: none;
-  color: black;
-  height: 100%;
-  width: 100%;
 }
 .fonctionnement .nombre {
   display: flex;
@@ -105,6 +103,11 @@ header img {
   border-radius: 30px;
   margin: 0 5px 0 -5px;
 }
+.fonctionnement a {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
 .fonctionnement .icone {
   color: #7e7e7e;
   margin: 0 20px;
@@ -112,6 +115,82 @@ header img {
 .fonctionnement p {
   font-weight: bold;
   font-size: 15px;
+}
+
+.restaurants {
+  margin-top: 40px;
+  padding: 20px 15px 40px 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+.restaurants__carte {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px #e6e6e6;
+  height: 250px;
+}
+.restaurants__carte__float {
+  float: right;
+  background-color: #99E2D0;
+  color: #2c9c81;
+  padding: 7px 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.restaurants__carte__corps {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  margin: 15px;
+}
+.restaurants__carte__coeur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+}
+.restaurants img {
+  object-fit: cover;
+  display: flex;
+  width: 100%;
+  height: 175px;
+  border-radius: 15px 15px 0 0;
+}
+.restaurants h3 {
+  margin: 0;
+}
+.restaurants p {
+  margin: 5px 0;
+}
+
+.footer {
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+}
+.footer h2 {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer li {
+  margin: 10px 0;
+}
+.footer a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
