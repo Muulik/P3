@@ -64,7 +64,7 @@ img{
         flex-direction: row;
         justify-content: space-between;
         h1{
-            font-weight:600;
+            font-weight: 600;
             font-size: 25px;
         }
         &__heart{
@@ -97,11 +97,21 @@ img{
         }
         h3{
             margin: 10px 0 5px 0;
+            font-size: 17px;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         &__detail{
             margin: 5px 0 10px 0;
             color: darken($color: #f6f6f6, $amount: 60%);
-            font-weight: 580;
+            font-weight: 500;
+            font-size: 14px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        > div{
+            width: 87%;
+            white-space: nowrap;
         }
     }
     &__bouton{

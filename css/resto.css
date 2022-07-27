@@ -95,11 +95,21 @@ img {
 }
 .bloc__plats h3 {
   margin: 10px 0 5px 0;
+  font-size: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .bloc__plats__detail {
   margin: 5px 0 10px 0;
   color: #5d5d5d;
-  font-weight: 580;
+  font-weight: 500;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bloc__plats > div {
+  width: 87%;
+  white-space: nowrap;
 }
 .bloc__bouton a {
   display: flex;
