@@ -2,10 +2,10 @@
 <html lang="fr">
 
 <head>
-    <title>ohmyfood - Le délice des sens</title>
+    <title>ohmyfood - À la française</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="css/resto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
@@ -13,114 +13,118 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <a href="accueil.html"><i class="fa-solid fa-arrow-left"></i></a>
+    <header class="header">
+        <div class="header__bloc">
+            <div class="header__fleche">
+                <a href="accueil.html"><i class="fa-solid fa-arrow-left"></i></a>
+            </div>
+            <div class="header__titre">
+                <img src="maquette_ohmyfood/images/logo/ohmyfood.png" alt="Logo ohmyfood">
+            </div>
         </div>
-        <img src="maquette_ohmyfood/images/logo/ohmyfood.png" alt="Logo ohmyfood">
     </header>
 
-     <img src="maquette_ohmyfood/images/restaurants/a_la_francaise.jpg" alt="Table garnie">
+    <img src="maquette_ohmyfood/images/restaurants/a_la_francaise.jpg" alt="Table garnie">
 
-     <div>
-        <div>
-           <h1>Le délice des sens</h1>
-           <i class="fa-thin fa-heart"></i>
+    <section class="bloc">
+         <div class="bloc__titre">
+            <h1>À la française</h1>
+            <div class="bloc__titre__heart"><i class="fa-regular fa-heart"></i></div>
+         </div>
+
+        <div class="bloc__menu">
+            <h2>ENTRÉES</h2>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Tartare de poulpe acidulé</h3>
+                    <p class="bloc__plats__detail">Aux zests d'orange</p>
+                </div>
+                <p>25€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Velouté de légumes d'antan</h3>
+                    <p class="bloc__plats__detail">Carotte, panais, topinambour</p>
+                </div>
+                <p>35€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Soupe à l'oignon</h3>
+                    <p class="bloc__plats__detail">Revisitée</p>
+                </div>
+                <p>20€</p>
+            </div>
         </div>
 
-        <div class="menu">
-           <h2>ENTRÉES</h2>
-           <div>
-               <h3>Tartare de thon</h3>
-               <div>
-                   <p>Assaisonné au yuzu</p>
-                   <p>25€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Bouchée de homard croustillant</h3>
-               <div>
-                   <p>Et sa farandole de petits légumes</p>
-                   <p>35€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Velouté de cèpes</h3>
-               <div>
-                   <p>Aux truffes</p>
-                   <p>20€</p>
-               </div>
-           </div>
+        <div class="bloc__menu">
+            <h2>PLATS</h2>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Coquilles Saint-Jacques</h3>
+                    <p class="bloc__plats__detail">Accompagnée d'une purée de panais</p>
+                </div>
+                <p>40€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Magret de canard</h3>
+                    <p class="bloc__plats__detail">Et parmentier de pommes de terre</p>
+                </div>
+                <p>35€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Pigeonneau d'Ille-et-Vilaine</h3>
+                    <p class="bloc__plats__detail">Sur son lit de gnocchis aux légumes</p>
+                </div>
+                <p>44€</p>
+            </div>
         </div>
+            
+        <div class="bloc__menu">
+            <h2>DESSERTS</h2>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Pétales de violettes glacés</h3>
+                    <p class="bloc__plats__detail">Et purée de noisettes</p>
+                </div>
+                <p>18€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Fondant au chocolat</h3>
+                    <p class="bloc__plats__detail">Revisité</p>
+                </div>
+                <p>22€</p>
+            </div>
+            <div class="bloc__plats">
+                <div>
+                    <h3>Millefeuille croustillant</h3>
+                    <p class="bloc__plats__detail">Myrtilles et pâte d'amande</p>
+                </div>
+                <p>23€</p>
+            </div>
 
-        <div class="menu">
-           <h2>PLATS</h2>
-           <div>
-               <h3>Poulet rôti aux herbes de Provence</h3>
-               <div>
-                   <p>Et sa crème de truffe</p>
-                   <p>40€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Langouste rôtie</h3>
-               <div>
-                   <p>Et ses légumes de saison</p>
-                   <p>35€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Côte de boeuf Angus</h3>
-               <div>
-                   <p>Et sa purée de panais</p>
-                   <p>44€</p>
-               </div>
-           </div>
+            <div class="bloc__bouton">
+                 <a href="#">Commander</a>
+            </div>
         </div>
-           
-        <div class="menu">
-           <h2>DESSERTS</h2>
-           <div>
-               <h3>Farandole de desserts</h3>
-               <div>
-                   <p>Du chef</p>
-                   <p>18€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Crème brulée</h3>
-               <div>
-                   <p>Revisité</p>
-                   <p>22€</p>
-               </div>
-           </div>
-           <div>
-               <h3>Tiramisu</h3>
-               <div>
-                   <p>À la noisette</p>
-                   <p>23€</p>
-               </div>
-           </div>
-        </div>
+        
+    </section>
 
-        <div>
-            <a href="#">Commander</a>
-        </div>
-       
-    </div>
-
-     <footer>
-        <img src="maquette_ohmyfood/images/logo/ohmyfood.png" alt="Logo ohmyfood">
+     <footer class="footer">
+        <h2>ohmyfood</h2>
         <ul>
            <li>
               <a href="#">
-                 <i class="fa-thin fa-utensils"></i>
+                 <i class="fa-solid fa-utensils"></i>
                  Proposer un restaurant
               </a>
            </li>
            <li>
               <a href="#">
-                 <i class="fa-thin fa-handshake-angle"></i>
+                 <i class="fa-solid fa-handshake-angle"></i>
                  Devenir partenaire
               </a>
            </li>
