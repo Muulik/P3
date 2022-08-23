@@ -74,7 +74,13 @@ img {
 .bloc h2 {
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 5px;
   color: #5d5d5d;
+}
+.bloc__trait {
+  width: 45px;
+  height: 3px;
+  background-color: #99E2D0;
 }
 .bloc__plats {
   display: flex;
@@ -84,6 +90,7 @@ img {
   margin: 10px 0;
   padding: 0 10px;
   box-shadow: 2px 2px 8px #dddddd;
+  cursor: pointer;
 }
 .bloc__plats > p {
   display: flex;
@@ -122,6 +129,10 @@ img {
   margin: auto;
   margin-top: 40px;
   background: linear-gradient(180deg, #FF79DA, #9356DC);
+}
+.bloc__bouton a:hover {
+  background: linear-gradient(180deg, #ff88de, #9b63df);
+  box-shadow: 3px 5px 8px #c4c4c4;
 }
 
 .footer {

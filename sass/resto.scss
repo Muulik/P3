@@ -77,7 +77,13 @@ img{
     h2{
         font-weight: 400;
         font-size: 18px;
+        margin-bottom: 5px;
         color: darken($color: #f6f6f6, $amount: 60%);
+    }
+    &__trait{
+        width: 45px;
+        height: 3px;
+        background-color: $tertiaire;
     }
     &__plats{
         display: flex;
@@ -87,6 +93,7 @@ img{
         margin: 10px 0;
         padding: 0 10px;
         box-shadow: 2px 2px 8px darken($color: #f6f6f6, $amount: 10%);
+        cursor: pointer;
         > p{
             display: flex;
             justify-content: flex-end;
@@ -126,6 +133,10 @@ img{
             margin: auto;
             margin-top: 40px;
             background: linear-gradient(180deg, $secondaire, $primaire);
+            &:hover{
+                background: linear-gradient(180deg, lighten($secondaire, 3%), lighten($primaire, 3%));
+                box-shadow: 3px 5px 8px darken($color: #eaeaea, $amount: 15%);
+            }
         }
     }
 }

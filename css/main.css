@@ -74,6 +74,13 @@ header img {
   font-size: 90%;
   font-family: "Roboto", sans-serif;
   box-shadow: 3px 5px 8px #d1d1d1;
+  cursor: pointer;
+  transition: all 250ms;
+}
+.form__bloc__submit:hover {
+  transform: scale(1.02);
+  background: linear-gradient(180deg, #ff88de, #9b63df);
+  box-shadow: 3px 5px 8px #c4c4c4;
 }
 
 .fonctionnement {
@@ -90,6 +97,13 @@ header img {
   margin: 10px 0;
   height: 65px;
   box-shadow: 5px 5px 8px #e6e6e6;
+}
+.fonctionnement__bouton:hover {
+  background-color: #f2eafb;
+  border-radius: 15px;
+}
+.fonctionnement__bouton :hover .icone {
+  color: #9356DC;
 }
 .fonctionnement .nombre {
   display: flex;
@@ -136,17 +150,24 @@ header img {
 .restaurants__carte__float {
   float: right;
   background-color: #99E2D0;
-  color: #2c9c81;
-  padding: 7px 10px;
+  color: #278870;
+  padding: 7px 15px;
   font-size: 15px;
   font-weight: 600;
   border-radius: 2px;
+  position: relative;
+  top: -163px;
+  right: 10px;
 }
 .restaurants__carte__corps {
   display: flex;
   justify-content: space-between;
-  height: 20%;
+  width: 95%;
   margin: 15px;
+}
+.restaurants__carte__position {
+  position: relative;
+  top: -15px;
 }
 .restaurants__carte__coeur {
   display: flex;
